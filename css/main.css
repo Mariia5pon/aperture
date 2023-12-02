@@ -99,15 +99,39 @@ main {
 
 }
 
+p {
+    color: var(--white);
+    margin: 14px 46px 20px 0;
+    line-height: 20px;
+}
 
+.sec-3 {
+    position: relative;
+    padding: 113px 0;
 
+}
 
+.rc img {
 
+}
 
+.rc {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
 
+}
 
+.flex {
+    display: flex;
+    align-items: stretch;
+    gap: 60px
+}
 
-
+.lc {
+    width: 50%;
+}
 
 
 
