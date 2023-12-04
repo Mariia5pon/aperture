@@ -214,33 +214,48 @@ h5 {
     font-size: 15px;
 }
 
-
-.sec-3 {
+.main-sec-3 {
+    background: url("../img/sec-3.jpg") no-repeat center center / cover;
+    height: 600px;
+    max-width: 100%;
+    margin-top: 100px;
     position: relative;
-    padding: 113px 0;
-
 }
 
-.rc img {
-
-}
-
-.rc {
+.main-sec-3_text {
+    display: inline-flex;
+    height: 600px;
+    max-width: 300px;
+    padding-right: 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     position: absolute;
-    width: 50%;
-    height: 100%;
-    right: 0;
+    right: 62px;
 
 }
+
+.main-sec-3_text p {
+    line-height: 20px;
+}
+
+.main-sec-3_svg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 18px;
+    font-size: 12px;
+    padding: 0 40px 41px 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 
 .flex {
     display: flex;
     align-items: stretch;
     gap: 57px;
-}
-
-.lc {
-    width: 50%;
 }
 
 footer .container {
