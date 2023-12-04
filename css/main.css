@@ -40,6 +40,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header_content {
@@ -146,24 +147,73 @@ h5 {
     text-transform: uppercase;
 }
 
-
-
-.circled {
-    padding: 11px 10px 13px 42px;
-    min-width: 143px;
+.main-sec-2_text {
     text-align: center;
+    padding-bottom: 40px;
+    padding-top: 105px;
 }
 
-.circled:before {
-    content: '';
-    position: absolute;
-    left: 4px;
-    top: 5px;
-    background: var(--black);
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+.main-sec-2_text h4 {
+    font-size: 23px;
 }
+
+.sec-2_cards {
+    align-items: flex-end;
+    position: relative;
+}
+
+.card-1 {
+    background: url("../img/card-1.jpg") no-repeat center center / cover;
+}
+
+.card-2 {
+    background: url("../img/card-2.jpg") no-repeat center center / cover;
+}
+
+.card-3 {
+    background: url("../img/card-3.jpg") no-repeat center center / cover;
+}
+
+.card-4 {
+    background: url("../img/card-4.jpg") no-repeat center center / cover;
+}
+
+.card {
+    max-width: calc(50% - 8px);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.sec-2_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 16px;
+}
+
+.card_content {
+    align-self: flex-end;
+}
+.main-sec-2 p {
+    color: var(--white-text);
+    padding: 12px 0 17px;
+}
+
+.main-sec-2 .btn {
+    position: relative;
+    padding: 5px 107px 1px 4px;
+}
+
+.btn span {
+    position: absolute;
+    top: 10px;
+    left: 42px;
+    font-size: 15px;
+}
+
 
 .sec-3 {
     position: relative;
